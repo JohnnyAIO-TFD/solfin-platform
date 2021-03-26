@@ -1,0 +1,18 @@
+En el directorio themes/your-themes/function.php
+
+Agregar el siguiente contenido:
+
+add_shortcode('publicaciones', 'publicaciones');
+function publicaciones() {
+    include('views_solfin/publicaciones.php');
+}
+
+add_shortcode('cumplimiento', 'cumplimiento');
+function cumplimiento() {
+    include('views_solfin/cumplimiento.php');
+}
+
+add_shortcode('contadores', 'contadores');
+function contadores() {
+    include('views_solfin/contabilidad.php');
+}
